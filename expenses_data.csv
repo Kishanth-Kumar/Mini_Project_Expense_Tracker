@@ -1,0 +1,61 @@
+Date,Category,Payment Mode,Description,Amount,Cashback
+2025-01-06,Subscription,Credit Card,Subscription for Prime,5337.63,9.89
+2025-01-10,Investment,UPI,Investment in Mutual Funds,4405.42,5.67
+2025-01-10,EMI,Cash,EMI for Chandler-Johnson product,4761.27,9.04
+2025-01-09,Subscription,Credit Card,Subscription for JioHotstar,4197.06,2.28
+2025-01-07,Investment,Credit Card,Investment in Real Estate,9158.74,3.2
+2025-02-04,EMI,Credit Card,EMI for Dunn-Walker product,7708.57,4.72
+2025-02-14,Groceries,UPI,Groceries shopping at Rios LLC,6732.76,6.01
+2025-02-11,Bills,Credit Card,Mobile payment,3683.91,8.06
+2025-02-16,Bills,Cash,Mobile payment,5523.71,1.28
+2025-02-16,Investment,Credit Card,Investment in Mutual Funds,9120.79,1.78
+2025-03-06,Groceries,UPI,"Groceries shopping at Robbins, Rogers and Hopkins",1359.7,7.4
+2025-03-13,Bills,UPI,Electricity Bill payment,8118.35,8.42
+2025-03-16,Bills,Credit Card,Electricity Bill payment,3007.52,1.56
+2025-03-02,EMI,Cash,EMI for Powell Ltd product,7206.41,9.48
+2025-03-08,Investment,Credit Card,Investment in Stocks,5662.88,4.06
+2025-04-14,Groceries,Credit Card,Groceries shopping at Hicks-Schneider,7074.37,4.27
+2025-04-01,Bills,UPI,Gas payment,3936.25,4.17
+2025-04-15,Subscription,UPI,Subscription for Prime,7529.1,9.94
+2025-04-04,Transport,Credit Card,Transport cost for Car Rental,8464.16,6.48
+2025-04-11,Investment,Credit Card,Investment in Mutual Funds,5653.28,3.78
+2025-05-07,EMI,UPI,"EMI for Stewart, Allison and Sanchez product",2387.86,4.94
+2025-05-16,EMI,Cash,EMI for Kennedy-Burgess product,6439.09,3.87
+2025-05-16,Bills,Cash,Gas payment,9791.38,7.03
+2025-05-07,Bills,UPI,Mobile payment,8609.29,6.59
+2025-05-16,Bills,UPI,Electricity Bill payment,9802.22,5.72
+2025-06-10,Investment,Cash,Investment in Bonds,3942.52,1.55
+2025-06-14,Transport,UPI,Transport cost for Fuel,2130.79,3.28
+2025-06-10,Transport,Cash,Transport cost for Public Transport,7203.37,7.12
+2025-06-07,EMI,Cash,EMI for Woods-Mann product,1695.12,4.21
+2025-06-10,Subscription,UPI,Subscription for JioHotstar,7542.74,2.77
+2025-07-12,Groceries,Cash,Groceries shopping at Salas PLC,4735.16,4.36
+2025-07-10,Investment,UPI,Investment in Real Estate,7582.16,3.93
+2025-07-12,EMI,Credit Card,EMI for Crosby Inc product,1087.31,4.28
+2025-07-10,Transport,Cash,Transport cost for Car Rental,9571.59,3.97
+2025-07-11,Transport,Cash,Transport cost for Fuel,1690.41,3.06
+2025-08-07,Bills,UPI,Electricity Bill payment,8158.11,5.54
+2025-08-10,Groceries,UPI,Groceries shopping at Campos Group,9160.96,7.98
+2025-08-13,Groceries,Cash,Groceries shopping at Jones-Turner,8350.16,4.99
+2025-08-15,EMI,Cash,EMI for Fisher Inc product,8526.15,2.55
+2025-08-13,Investment,Cash,Investment in Bonds,1184.09,6.8
+2025-09-14,EMI,Credit Card,"EMI for Turner, Wilson and Melendez product",5205.61,8.03
+2025-09-04,EMI,UPI,EMI for Edwards-Merritt product,6732.11,8.69
+2025-09-09,Subscription,Cash,Subscription for Zee5,6144.01,7.97
+2025-09-08,EMI,Cash,EMI for Houston Inc product,4559.19,7.12
+2025-09-10,Subscription,Cash,Subscription for Prime,6100.72,3.52
+2025-10-05,EMI,Cash,EMI for Lopez-Pierce product,7922.44,4.12
+2025-10-04,Investment,Cash,Investment in Mutual Funds,5116.72,7.22
+2025-10-12,Bills,Credit Card,Mobile payment,6429.5,6.28
+2025-10-07,Subscription,Credit Card,Subscription for Zee5,6541.81,8.79
+2025-10-03,Bills,UPI,Electricity Bill payment,4456.35,4.73
+2025-11-16,EMI,UPI,EMI for Kelly-White product,1889.68,4.82
+2025-11-02,Groceries,UPI,"Groceries shopping at Cunningham, Mckay and Molina",5763.26,9.67
+2025-11-10,Bills,Credit Card,Electricity Bill payment,2435.48,4.71
+2025-11-16,Investment,Credit Card,Investment in Stocks,8825.64,3.64
+2025-11-11,Bills,UPI,Electricity Bill payment,7001.59,2.87
+2025-12-08,Subscription,Cash,Subscription for Zee5,9272.95,8.94
+2025-12-13,Groceries,UPI,"Groceries shopping at Freeman, Wagner and Hudson",6007.19,8.04
+2025-12-16,Transport,Cash,Transport cost for Fuel,2720.46,7.01
+2025-12-01,Transport,Credit Card,Transport cost for Taxi,9737.16,5.2
+2025-12-04,Subscription,Credit Card,Subscription for Zee5,6009.6,1.84
