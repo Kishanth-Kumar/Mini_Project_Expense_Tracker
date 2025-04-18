@@ -188,7 +188,7 @@ if st.button(questions[7]):
            Category, 
            SUM(Amount) AS Total_Spending
     FROM expenses
-    WHERE Category IN ('Travel', 'Entertainment', 'Gifts')  
+    WHERE Category IN ('Transport', 'Subscription', 'Gifts')  
     GROUP BY YEAR(Date), MONTH(Date), Category
     ORDER BY Year, Month, Category
     """
@@ -215,15 +215,16 @@ if st.button(questions[7]):
 #Button to show are there any recurring expenses that occur during specific months of the year
 if st.button(questions[8]):
     query = """
-    SELECT YEAR(Date) AS Year, 
-           MONTH(Date) AS Month, 
-           Description, 
-           SUM(Amount) AS Total_Spending,
-           COUNT(*) AS Frequency
+    SELECT 
+        YEAR(Date) AS Year, 
+        MONTH(Date) AS Month, 
+        Description, 
+        SUM(Amount) AS Total_Spending,
+        COUNT(*) AS Frequency
     FROM expenses
     GROUP BY YEAR(Date), MONTH(Date), Description
-    HAVING COUNT(DISTINCT YEAR(Date)) > 1
-    ORDER BY Frequency DESC
+    HAVING COUNT(*) > 1
+    ORDER BY Frequency DESC;
     """
     result_df = execute_query(query)
 
@@ -231,15 +232,18 @@ if st.button(questions[8]):
         st.write('Recurring expenses that occur during specific months of the year:')
         st.dataframe(result_df)
 
-        # Create a heatmap
-        fig = px.density_heatmap(result_df, x="Month", y="Description", z="Frequency", 
-                                 title="Recurring Expenses Heatmap", 
-                                 color_continuous_scale="Blues")
+         # Create a bar chart
+        fig = px.bar(
+            result_df,
+            x="Description",
+            y="Frequency",
+            color="Month",
+            barmode="group",
+            title="Recurring Expenses by Description and Month",
+            labels={"Frequency": "Occurrences", "Month": "Month"},
+        )
 
-        fig.update_xaxes(title_text="Month")
-        fig.update_yaxes(title_text="Expense Description")
-
-        # Show the chart
+        fig.update_layout(xaxis_tickangle=-45)  # Rotate labels for readability
         st.plotly_chart(fig)
 
 #Button to show how much cashback or rewards were earned in each month
